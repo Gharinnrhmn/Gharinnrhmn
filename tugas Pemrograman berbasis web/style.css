@@ -1,0 +1,39 @@
+/* Gaya umum tombol */
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #333;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    text-decoration: none; /* Menghapus garis bawah tautan */
+    border: none; /* Menghapus batas tombol */
+    border-radius: 5px; /* Membulatkan sudut tombol */
+    cursor: pointer;
+  }
+  
+  /* Gaya tombol saat disorot */
+  .button:hover {
+    background-color: #0056b3; /* Warna latar belakang saat disorot */
+  }
+  
